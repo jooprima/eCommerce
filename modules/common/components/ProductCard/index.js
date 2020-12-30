@@ -8,6 +8,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
+import ProductRating from "@common/components/ProductRating";
+
 const useStyles = makeStyles({
   card: {
     maxWidth: 360,
@@ -42,6 +44,7 @@ const ProductCard = ({
             <Typography variant="overline" className={classes.price}>
               {price}
             </Typography>
+            <ProductRating rating={rating} sold={sold} />
           </Grid>
         </CardContent>
       </div>
