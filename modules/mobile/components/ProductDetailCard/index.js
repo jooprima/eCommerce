@@ -13,7 +13,10 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
 import ProductRating from "@common/components/ProductRating";
+import PromoCard from "@common/components/PromoCard";
+
 import { currencyFormatter } from "@utils/currency";
 
 const useStyles = makeStyles((theme) => ({
@@ -162,6 +165,7 @@ const ProductDetailCard = ({
           </CardContent>
         </Collapse>
       </Card>
+      <PromoCard promo={promo} />
     </div>
   );
 };
