@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBarr from "@material-ui/core/AppBar";
+import AppBar from "@material-ui/core/AppBar";
 import ToolBar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
